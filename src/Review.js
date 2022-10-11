@@ -47,17 +47,17 @@ const prevPerson = () => {
     <>
       {" "}
       <section class="text-gray-400   body-font">
-        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div class="container mx-auto flex px-5 py-14 items-center justify-center flex-col">
           <img
             class="w-52 h-52 mb-10 object-cover object-center rounded-full"
             alt={name}
             src={image}
           />
           <div class="text-center lg:w-2/3 w-full">
-            <h1 class="title-font sm:text-4xl text-3xl mb-1 font-medium text-purple-900">
+            <h1 class="title-font sm:text-4xl text-3xl mb-1 font-medium text-[#e0aaff]">
               {name}
             </h1>
-            <h1 class="title-font   text-xl mb-4  text-gray-800">{job}</h1>
+            <h1 class="title-font   text-xl mb-4  text-gray-400">{job}</h1>
             <p class="leading-relaxed mb-8"> {text}</p>
             <div class="flex justify-center">
               <button
